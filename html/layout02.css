@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{}
+/* 태그라 점을 안찍음  */
+.wrap{ 
+    font-size: 20px;
+    text-align: center;
+    /* color:red; */
+    /* 자식요소가 부모요소에 영향을 받는다. */
+}
+/* 클래스를 적은때는 점 */
+
+/* 아이디를 선택할때는 #apple이런식으로 적음 */
+
+/* 대부분의 디자인은 클래스로 사용 */
+
+/* id는 사용자지정?? 을 위해 사용 */
+.header{
+    background-color: #D9D9D9;
+    height: 100px;
+    line-height: 100px;
+    /* width: 1440px; 지정안할경우 full */
+
+}
+
+.contents{
+    background-color: #E6E6E6;
+    height: 624px;
+    /* text-align: center; */
+    /* 텍스트 언라인은 사용이 불가능함 */
+    
+    /* line-height: 624px; */
+    /* line-height: 는 한줄인 경우만 사용할수있다.; */
+
+}
+/* <p>의 넓이를 지정하는 방법 */
+.contents p{
+    font-weight: bold;
+    width: 800px;
+    /* margin: 260px auto; 
+    이경우 마진이 전체로 먹음*/
+    /* 중앙정렬 방식중마진을 주는 형식임  */
+    margin: 0 auto;
+    padding-top: 206px;
+    border:10px solid green;
+    /* 패딩까지 녹색으로 감싸진 : 패딩또한 나다 
+    마진은 내게아닌 빈 공간이다. */
+    
+}
+
+.footer{
+    background-color: #D9D9D9;
+    height: 300px;
+    line-height: 300px;
+}
+
