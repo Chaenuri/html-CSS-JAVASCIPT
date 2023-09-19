@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{    
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.wrap{
+}
+
+.header{
+        background-color: #D9D9D9;
+        line-height: 100px;
+        height: 100px;}
+
+.contents{
+    display: flex;
+    /* flex사용시 알아서 넓이를 맞춘다서로  */
+    /* 플렉스는(유연하다) 자식을을 유연하게 서로 맞추게 만든다. */
+    line-height: 624px;
+    
+}
+
+.contents .menu {
+    /* background-color: #E6E6E6;
+    height: 623px;
+    width: 400px; 
+    공간이 비어있어도 얘가 가로로 모두 사용해서 사용 불가능 */
+    background-color: #E6E6E6;
+    height: 623px;
+    width: 400px; 
+
+}
+
+.contents .main{
+    background-color: #F0F0F0;
+    height: 624px;
+    /* flex: 1; */
+    width: 100%;
+    /* flex 1과 width 100%는 같다 
+    그러나 부모 요소에 flex를 사용했으니 flex사용 
+    400(menu asid)를 제외한 나머지 공간을 가진다*/
+    /* 1은 100%를 표현 */
+    /* width: 1040px; 
+    안적어도됨 메뉴 외에 모든 칸을 main이 사용한다*/
+}
+
+.footer {
+    background-color: #D9D9D9;
+    height: 300px;
+    line-height: 300px;
+}

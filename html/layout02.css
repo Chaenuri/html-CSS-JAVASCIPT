@@ -46,7 +46,7 @@ body{}
     /* 중앙정렬 방식중마진을 주는 형식임  */
     margin: 0 auto;
     padding-top: 206px;
-    border:10px solid green;
+    /* border:10px solid green; */
     /* 패딩까지 녹색으로 감싸진 : 패딩또한 나다 
     마진은 내게아닌 빈 공간이다. */
     
