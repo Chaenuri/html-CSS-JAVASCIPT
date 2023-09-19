@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html tag2</title>
+    <title>html form</title>
+    <style>
+
+
+    </style>
+    <script>
+
+
+    </script>
 </head>
 <body>
-    
+    <section>
+        <form action="" method="post">
+            <!-- method는 뭐로 보낼건지 타입을 정하는거임 -->
+            <div>
+                <label for="name">이름 : </label>
+                <input type="text" name = "name" id = "name">
+                <!-- for 와 id 연동 -->
+            </div>
+
+            <div>
+                <label for="email"> 이메일 : </label>
+                <input type="email" 이메일 ="email" id="email">
+            </div>
+            <div>
+                <label for="password"> 비밀번호 : </label>
+                <input type="password" 비밀번호 ="password" id="password">
+            </div>
+            
+            <div>
+                <input type="submit" value="가입하기">
+            </div>
+
+            <div>
+                <div>
+                    <!-- <input type="checkbox" id="apple">
+                    <label for="apple">사과</label>
+                    <input type="checkbox" id ="orange">
+                    <label for="orange">오렌지</label>
+                    <input type="checkbox" id = "banana">
+                    <label for="banana">바나나</label> -->
+                    <!-- 이렇게해도 되지만 요소를 나누기위해 span으로 나눔 -->
+                    <span>
+                        <input type="checkbox" id="apple" value="apple" checked>
+                        <!-- value 값 apple이라 설정시 답변때 apple 선택이 정보 남음 -->
+                        <label for="apple">사과</label>
+                    </span>
+                    <span>
+                        <input type="checkbox" id ="orange">
+                        <label for="orange">오렌지</label>
+                    </span>
+                    <span>
+                        <input type="checkbox" id = "banana">
+                        <label for="banana">바나나</label>
+                    </span>
+                    <div>
+                        <span>
+                            <label for="html">html</label>
+                            <input type="radio" id="html" value="html">
+                        </span>
+                        <span>
+                         <label for="CSS">CSS</label>
+                            <input ty   pe="radio" id="CSS" value="CSS">
+                        </span>
+                       <span>
+                            <label for="js">js</label>
+                            <input type="radio" id="js" value="js">
+                        </span>
+                    </div>  
+                    <form action="#">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        
+                        <select name="apple" id="apple">
+                            <option value="10">사과 10kg</option>   
+                            <option value="20">사과 20kg</option>z
+                            <option value="30">사과 30kg</option>
+                            <option value="40">사과 40kg</option>
+                            <option value="50">사과 50kg</option>
+                        </select>  
+           
+                        
+                    </form>
+                    
+                    
+                </div>
+            </div>
+        </form>
+
+    </section>
 </body>
 </html>
